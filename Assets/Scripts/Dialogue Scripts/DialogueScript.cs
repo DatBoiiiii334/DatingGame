@@ -6,6 +6,7 @@ using UnityEngine;
 public class DialogueScript
 {
     public string name;
+    public GameObject Charactuer;
 
     [TextArea(3, 10)]
     public string[] sentences;
